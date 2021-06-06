@@ -33,8 +33,6 @@ First we drew all diagrams to figure out the relationships between our models. T
 ## Most difficult part of the project 
 The most difficult part of the project was dealing with two kind of users tutors and students and make all feturse for them and chatbox.
 
-* **Display meals based on date**:
-The second problem we faced was figuring out how to display the meals in food list based on the date the user picks.
 
 ## What to add next
 * Improve app design 
