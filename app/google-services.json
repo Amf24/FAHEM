@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "530269571060",
+    "firebase_url": "https://fahemapp-381a1.firebaseio.com",
+    "project_id": "fahemapp-381a1",
+    "storage_bucket": "fahemapp-381a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530269571060:android:c42d939f098eadb2cedba1",
+        "android_client_info": {
+          "package_name": "com.example.gradproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530269571060-29ot24qdd91a1bdj3fevqgro9et2q2hl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gradproject",
+            "certificate_hash": "49e70bb6e74d0c661531910b01b55455b7f25113"
+          }
+        },
+        {
+          "client_id": "530269571060-moe97qudamt497q38t2rbu7goabpcvml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbk-7kRSoxV2qjHI85EmiZJk1GtiTbDwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530269571060-moe97qudamt497q38t2rbu7goabpcvml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

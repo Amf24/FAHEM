@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TutorDisplayedProfile"
+    >
+
+    <include
+        android:id="@+id/tutor_search_toolbar"
+        layout="@layout/tutor_profile_toolbar"
+        />
+
+    <ImageView
+        android:id="@+id/tutor_displayed_profile_pic"
+        android:layout_width="119dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tutor_search_toolbar"
+        app:srcCompat="@drawable/ic_profile_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/tutor_displayed_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="Name:"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tutor_displayed_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toEndOf="@+id/tutor_displayed_profile_pic"
+        app:layout_constraintTop_toBottomOf="@+id/tutor_search_toolbar"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tutor_displayed_description"
+        android:layout_width="363dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="16dp"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical"
+        android:text="Description: -"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:background="@drawable/border"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tutor_displayed_profile_pic" />
+
+    <TextView
+        android:id="@+id/tutor_displayed_courses_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Tutor Offered Courses: -"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tutor_displayed_description" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tutor_displayed_courses"
+        android:layout_width="364dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/display_tutor_schedule"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tutor_displayed_courses_textView"
+        app:layout_constraintVertical_bias="0.135"
+        tools:listitem="@layout/course_card" />
+
+    <Button
+        android:id="@+id/display_tutor_schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="display tutor schedule"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

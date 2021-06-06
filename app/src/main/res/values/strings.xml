@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FahemApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_appointments">My Appointments</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_profile">Profile</string>
+    <string name="profile_textV">This is profile page</string>
+    <string name="home_textV">This is home page</string>
+    <string name="chat_textV">This is chat page</string>
+    <string name="appointment_textV">This is appointment page</string>
+
+</resources>
